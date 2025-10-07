@@ -1,0 +1,8 @@
+name: "hello-cloudbuild-app-trigger"
+description: "Trigger for pushes to the master branch of hello-cloudbuild-app"
+github:
+  owner: "kollachinnareddemma-oss"
+  name: "hello-cloudbuild-app"
+  push:
+    branch: "^master$"
+filename: "cloudbuild.yaml"
